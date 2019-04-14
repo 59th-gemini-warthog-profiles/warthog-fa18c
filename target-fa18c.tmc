@@ -116,12 +116,11 @@ MapKeyIO(&Joystick,H4P,TEMPO(USB[0x43],PULSE+USB[0x29],500),TEMPO(USB[0x17],PULS
 Eject = CHAIN(PULSE+LED(&Throttle,LED_ONOFF,LED_CURRENT^LED0),PULSE+L_CTL+USB[0x08]); //Chain needed for the ejection sequence on button "LDGH"
 
 //MIC
-MapKeyIO(&Throttle,MSU,L_CTL+L_SHIFT+USB[0x3A],L_CTL+USB[0x55]); //usb code 'F1' for trackirpause, usb code '`' teamspeack whisper
-MapKeyIO(&Throttle,MSD,PULSE+R_SHIFT+USB[0x0B],L_SHIFT+USB[0x55]); //nightvision on/off usb code 'h',usb code '`' teamspeack/Radio 1 Simple  Radio
+MapKeyIO(&Throttle,MSU,0,L_CTL+USB[0x55]);
+MapKeyIO(&Throttle,MSD,PULSE+R_SHIFT+USB[0x0B],L_SHIFT+USB[0x55]);
 MapKeyIO(&Throttle,MSL,R_CTL+R_SHIFT+USB[0x0B],R_CTL+USB[0x31]); //nightvision + usb code 'h', COMM2 usb code '\'
 MapKeyIO(&Throttle,MSR,R_ALT+R_SHIFT+USB[0x0B],R_ALT+USB[0x31]); //nightvision - usb code 'h', COMM1 usb code '\'
-MapKeyIO(&Throttle,MSP,R_ALT+USB[0x35],R_CTL+USB[0x57]); // Radio 2 Simple  Radio, FOLLOW LAUNCHED usb code 'Num +'
-
+MapKeyIO(&Throttle,MSP,0,R_CTL+USB[0x57]);
 
 
 //speedbrake
