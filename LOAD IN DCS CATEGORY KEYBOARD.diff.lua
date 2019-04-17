@@ -434,6 +434,28 @@ local diff = {
 			},
 			["name"] = "Selective Jettison Pushbutton",
 		},
+		["d3010pnilu3010cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num1",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC Option Select Pushbutton 1",
+		},
+		["d3011pnilu3011cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num2",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC Option Select Pushbutton 2",
+		},
 		["d3011pnilunilcd23vd0.2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -457,6 +479,39 @@ local diff = {
 				},
 			},
 			["name"] = "Selective Jettison Knob - SAFE",
+		},
+		["d3012pnilu3012cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num3",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC Option Select Pushbutton 3",
+		},
+		["d3013pnilu3013cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num4",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC Option Select Pushbutton 4",
+		},
+		["d3014pnilu3014cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num5",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC Option Select Pushbutton 5",
 		},
 		["d3014pnilunilcd53vd1vpnilvunil"] = {
 			["added"] = {
@@ -580,14 +635,6 @@ local diff = {
 			},
 			["name"] = "UFC Keyboard Pushbutton - 6",
 		},
-		["d3024pnilunilcd2vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "P",
-				},
-			},
-			["name"] = "Cycle Afterburner Detent - ON/OFF",
-		},
 		["d3025pnilu3025cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -611,6 +658,17 @@ local diff = {
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 9",
+		},
+		["d3028pnilu3028cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num/",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - CLR",
 		},
 		["d3029pnilu3029cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -661,7 +719,10 @@ local diff = {
 		["d3045pnilu3045cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "OEM102",
+					["key"] = "L",
+					["reformers"] = {
+						[1] = "LShift",
+					},
 				},
 			},
 			["name"] = "Sensor Control Switch - Depress",
