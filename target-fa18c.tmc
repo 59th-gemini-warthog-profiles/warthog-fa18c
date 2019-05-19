@@ -154,8 +154,10 @@ MapKeyIO(&Throttle,CSR,PULSE+USB[0x3D],PULSE+R_SHIFT+USB[0x0E]); //view arcade u
 
 //base
 MapKeyIO(&Throttle,EFLNORM,0,PULSE+L_ALT+L_CTL+USB[0x08]); //DISPENSER ON usb code 'e'
-MapKeyIO(&Throttle,EFRNORM,0,DX17); // FUEL PROBE ingame bind
+MapKeyIO(&Throttle,EFRNORM,0,DX17);
+//MapKeyIO(&Throttle,EFRNORM,0,PULSE+L_CTL+L_SHIFT+USB[0x1B]);
 MapKeyIO(&Throttle,EFLOVER,0,PULSE+L_CTL+L_SHIFT+USB[0x08]); //DISPENSER OFF usb code 'e'
+//MapKeyIO(&Throttle,EFROVER,0,PULSE+L_ALT+L_SHIFT+USB[0x1B]);
 MapKeyIO(&Throttle,EOLMOTOR,0,CHAIN(PULSE+R_CTL+USB[0x05],D(),LED(&Throttle,LED_ONOFF,LED_CURRENT-LED1))); //BATTERY OFF usb code 'b' LED1 OFF
 MapKeyIO(&Throttle,EORMOTOR,0,CHAIN(PULSE+R_CTL+USB[0x2F],D(),PULSE+R_CTL+USB[0x31],D(),PULSE+L_CTL+USB[0x12])); //FREE usb code '', '\'LEFT-RIGHT MDI OFF OXYGEN OFF  usb code '[' '\' 'o'
 MapKeyIO(&Throttle,EOLNORM,0,CHAIN(PULSE+R_SHIFT+USB[0x05],D(),LED(&Throttle,LED_ONOFF,LED_CURRENT+LED1))); //BATTERY usb code 'b' LED1 ON
